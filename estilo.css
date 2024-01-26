@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.background{
+    background: rgba(3,0,12,0.7) url(../ProjetoSalao/imagem/cabelo.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+   
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+    gap: 80rem;
+}
+
+nav{
+    display: flex;
+    gap: 45px;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+.meio h1{
+    
+    color: white;
+    font-size: 100px;
+}
+.container{
+    text-align: center;
+    margin-top: 8%;
+    max-width: 100%;
+}
+.logo i{
+    height: 50px;
+    width: 50px;
+    margin-right: 600px;
+    background: transparent;
+    border: 3px solid pink;
+    color: plum;
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.servicos{
+    background-color: white;
+    color: rgb(213, 0, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 23px;
+}
+.services h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 53px;
+}
+
+.cortes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 87px 81px;
+
+}
+.corte{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+img{
+    width: 80%;
+    max-width: 100%;
+    transition: transform 0.2s;
+}
+.corte img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.infocorte{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: white;
+    z-index: 99;
+}
+.infocorte strong{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 0px 0px 80px;
+    color: blueviolet;
+}
+
+/* ------- PAGINA 3 ------*/

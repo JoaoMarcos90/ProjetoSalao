@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.containerpag3{
+    width: 100%;
+    columns: 4;
+    background-color:black;
+    
+}
+.containerpag3 .box{
+    width: 100%;
+    margin-bottom: 1px;
+ 
+   
+}
+.containerpag3 .box img{
+    max-width:  100%;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    transition: transform 0.2s;
+}
+.containerpag3 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
