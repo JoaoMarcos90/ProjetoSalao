@@ -67,22 +67,54 @@ header{
     font-size: 23px;
     cursor: pointer;
 }
-
+/* ------- PAGINA 1 ------*/
 .servicos{
     background-color: white;
-    color: rgb(213, 0, 246);
+    color: rgb(153, 37, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 64px 23px;
+    padding: 70px 0px 80px 0px;
 }
 .services h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 58px;
-    margin-bottom: 53px;
+    font-size: 70px;
+    margin-bottom: 50px;
 }
+/* ------- PAGINA 2 ------*/
+
+.sobre{ 
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    background-color:rgb(180, 62, 227) ;
+    vertical-align: top;
+}
+
+.imagemm{
+    float: left;
+    max-width: 80%;
+    width: 20%;
+    overflow: hidden;
+    transition: transform 0.1s;
+    
+}
+.sobre .imagemm:hover{
+    transform: scale(1.1);
+   
+}
+.textao h4 {
+    max-width: 100%;
+    margin-top: 20%;
+    margin-left: 50%; 
+    font-size: 150%;
+    color: white;
+    text-shadow: 2px 2px 2px #fb0fff, 0 0 2px rgb(225, 0, 255);
+    
+}
+/* ------- PAGINA 3 ------*/
 
 .cortes{
     display: flex;
@@ -100,7 +132,7 @@ header{
     overflow: hidden;
 }
 img{
-    width: 80%;
+    width: 90%;
     max-width: 100%;
     transition: transform 0.2s;
 }
@@ -125,4 +157,33 @@ img{
     color: blueviolet;
 }
 
-/* ------- PAGINA 3 ------*/
+/* ------- PAGINA 4------*/
+
+.contatos{
+    display: flex;
+    background-color: rgb(180, 62, 227);
+    width: 100%;
+    height: 70vh;
+}
+.contatos h5{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 100%;
+    font-size: 40px;
+    color: white;
+}
+.cont i{
+    height: 8%;
+    width: 8%;
+    background: transparent;
+    border: 3px solid black;
+    color: black;
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-top:10%;
+    margin-left:40%;
+    cursor: pointer;
+}
