@@ -167,35 +167,41 @@ button {
 
 /* ------- PAGINA 4------*/
 
-.contatos{
-    display: flex;
-    background-color: rgb(180, 62, 227);
-    width: 100%;
-    height: 70vh;
-    margin-top: 10%;
-}
-.contatos h5{
-    width: 100%;
-    margin-top: 10%;
-    margin-left: 100%;
-    font-size: 40px;
-    color: white;
-}
-.cont i{
-    height: 8%;
-    width: 8%;
-    background: transparent;
-    border: 3px solid black;
-    color: black;
-    border-radius: 50%;
-    display:inline-flex ;
+
+.minigaleria{
+    width: 70%;
+    display: block;
     align-items: center;
-    justify-content: center;
-    font-size: 23px;
-    margin-top:10%;
-    margin-left:40%;
-    cursor: pointer;
+    margin-left:14%;
+    columns: 3;
+    background-color:rgb(255, 255, 255);
+    margin-top: 16%;
+   
+    
 }
+.minigaleria .box{
+    width: 100%;
+    margin-bottom: 0px;
+ 
+   
+}
+.minigaleria .box img{
+    max-width:  100%;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    transition: transform 0.2s;
+}
+.minigaleria img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+  
+
+
+
 
 
 
@@ -242,5 +248,34 @@ button {
     -ms-transform: translate(-50%, -50%);
 
   }
+/* -------pag 5 ----------- */
 
-  
+.contatos{
+    display: flex;
+    background-color: rgb(180, 62, 227);
+    width: 100%;
+    height: 70vh;
+    margin-top: 10%;
+}
+.contatos h5{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 100%;
+    font-size: 40px;
+    color: white;
+}
+.cont i{
+    height: 8%;
+    width: 8%;
+    background: transparent;
+    border: 3px solid black;
+    color: black;
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-top:10%;
+    margin-left:40%;
+    cursor: pointer;
+}
