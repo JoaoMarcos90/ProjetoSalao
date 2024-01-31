@@ -33,7 +33,9 @@ nav a{
     color: white;
     font-weight: 500;
 }
-
+nav a:hover{
+    color: rgb(242, 127, 255);
+}
 header{
     display: flex;
     justify-content: center;
@@ -65,7 +67,7 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 23px;
-    cursor: pointer;
+    
 }
 /* ------- PAGINA 1 ------*/
 .servicos{
@@ -97,11 +99,12 @@ header{
 .imagemm{ 
     max-width: 100%;
     width: 30%;
-    transition: transform 0.1s;
+    transition: transform 2ms;
+    border-radius: 10px;
     
 }
 .sobre .imagemm:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 1;
    
 }
@@ -114,98 +117,60 @@ header{
     text-shadow: 2px 2px 2px #fb0fff, 0 0 2px rgb(225, 0, 255);
     
 }
-
-/* CSS */
-.button-51 {
-  background-color: transparent;
-  border: 1px solid #266DB6;
-  box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-51:hover,
-.button-51:active {
-  outline: 0;
-}
-
-.button-51:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.button-51:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
-
-.button-51:hover:before {
-  background-color: #6DCFF6;
-}
-
-@media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
+/* ------BOTAO---------*/
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: all 0.5s ease;
+    margin-left: 40%;
+    margin-top: 10%;
   }
-}
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+
 /* ------- PAGINA 3 ------*/
 
 .cortes{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 0px 0px;
+    height: 100vh;
 
-}
-.corte{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 8px;
-    overflow: hidden;
 }
 .cortes img{
     width: 100%;
-    opacity: 0.4;
     max-width: 100%;
     transition: transform 0.2s;
 }
 .corte img:hover{
     transform: scale(1.1);
     z-index: 1;
-    opacity: 1.0;
 }
-.infocorte{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 32px;
-    background-color: white;
-    z-index: 99;
-}
-.infocorte strong{
-    position: relative;
-    font-size: 40px;
-    padding: 14px 5px 0px 100px;
-    color: blueviolet;
-}
+
+
+
 
 /* ------- PAGINA 4------*/
 
@@ -237,3 +202,50 @@ header{
     margin-left:40%;
     cursor: pointer;
 }
+
+
+
+
+/* -------EFEITO IMG PAG3 ----------- */
+
+.container2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100vh;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #f778ea;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    opacity:initial;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  
