@@ -133,7 +133,7 @@ button {
 /* ------- PAGINA 3 ------*/
 
 .servicos{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -172,38 +172,31 @@ button {
     width: 70%;
     display: block;
     align-items: center;
-    margin-left:14%;
+    margin-left:12%;
     columns: 3;
     background-color:rgb(255, 255, 255);
-    margin-top: 16%;
+    margin-top: 8%;
+    z-index: 99;
    
     
 }
-.minigaleria .box{
-    width: 100%;
-    margin-bottom: 0px;
- 
-   
-}
+
 .minigaleria .box img{
     max-width:  100%;
     border-radius: 15px;
+    
 }
 img{
     width: 100%;
     max-width: 100%;
     transition: transform 0.2s;
+    
 }
 .minigaleria img:hover{
     transform: scale(1.1);
     z-index: 1;
 }
   
-
-
-
-
-
 
 
 /* -------EFEITO IMG PAG3 ----------- */
