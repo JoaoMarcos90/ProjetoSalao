@@ -18,16 +18,9 @@
    
 }
 
-.logo img{
-    width: 80px;
-    height: auto;
-    gap: 80rem;
-}
-
 nav{
     display: flex;
-    gap: 45px;
-    font-size: 25px;
+    font-size: 35px;
 }
 nav a{
     color: white;
@@ -42,7 +35,7 @@ header{
     padding-top: 2rem;
     align-items: center;
     text-align: center;
-    gap: 10rem;
+    gap: 25rem;
 }
 
 .meio h1{
@@ -52,7 +45,7 @@ header{
 }
 .container{
     text-align: center;
-    margin-top: 8%;
+    margin-top: 2%;
     max-width: 100%;
 }
 .logo i{
@@ -196,7 +189,18 @@ img{
     transform: scale(1.1);
     z-index: 1;
 }
-  
+  h6{
+    position: relative;
+    text-align: center;
+    margin-top: 14%;
+    font-size: 400%;
+  }
+  h3{
+    position: relative;
+    text-align: center;
+   
+    font-size: 100%;
+  }
 
 
 /* -------EFEITO IMG PAG3 ----------- */
@@ -243,32 +247,37 @@ img{
   }
 /* -------pag 5 ----------- */
 
-.contatos{
-    display: flex;
-    background-color: rgb(180, 62, 227);
-    width: 100%;
-    height: 70vh;
-    margin-top: 10%;
-}
-.contatos h5{
-    width: 100%;
-    margin-top: 10%;
-    margin-left: 100%;
-    font-size: 40px;
-    color: white;
-}
-.cont i{
-    height: 8%;
-    width: 8%;
+.rede i{
+    height: 40px;
+    width: 40px;
     background: transparent;
-    border: 3px solid black;
-    color: black;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     display:inline-flex ;
     align-items: center;
     justify-content: center;
-    font-size: 23px;
-    margin-top:10%;
-    margin-left:40%;
+    font-size: 25px;
     cursor: pointer;
+    margin-right: 1%;
+    float:none;
+ 
+}
+
+.rede i:hover{
+    background-color: rgb(207, 8, 190);
+}
+
+
+
+.mapBox iframe{
+    margin-top: 3%;
+    width: 100%;
+    height: 400px;
+}
+.imageLocal{
+    width: 50%;
+    height: 40%;
+    
+    
 }
