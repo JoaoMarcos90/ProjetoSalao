@@ -20,7 +20,7 @@
 
 nav{
     display: flex;
-    font-size: 35px;
+    font-size: 38px;
 }
 nav a{
     color: white;
@@ -35,7 +35,7 @@ header{
     padding-top: 2rem;
     align-items: center;
     text-align: center;
-    gap: 25rem;
+    gap: 46rem;
 }
 
 .meio h1{
@@ -51,15 +51,16 @@ header{
 .logo i{
     height: 50px;
     width: 50px;
-    margin-right: 600px;
     background: transparent;
-    border: 3px solid pink;
+    border: 2px solid pink;
     color: plum;
     border-radius: 50%;
     display:inline-flex ;
     align-items: center;
     justify-content: center;
-    font-size: 23px;
+    font-size: 28px;
+    position: absolute;
+    left: 100px;
     
 }
 /* ------- PAGINA 2 ------*/
@@ -90,6 +91,14 @@ header{
     text-shadow: 2px 2px 2px #fb0fff, 0 0 2px rgb(225, 0, 255);
     
 }
+.agenda{
+    position: absolute;
+    font-size: 300%;
+    right: 26%;
+    top:150%;
+    color: white;
+}
+
 /* ------BOTAO---------*/
 button {
     padding: 17px 40px;
@@ -256,16 +265,36 @@ img{
     border-radius: 50%;
     display:inline-flex ;
     align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 95%;
+ 
+}
+.rede2 i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
     justify-content: center;
     font-size: 25px;
     cursor: pointer;
-    margin-right: 1%;
-    float:none;
- 
+    position: absolute;
+    left: 90%;
 }
 
 .rede i:hover{
     background-color: rgb(207, 8, 190);
+ 
+}
+.rede2 i:hover{
+    background-color: rgb(20, 10, 212);
+
 }
 
 
