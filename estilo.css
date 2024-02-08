@@ -350,11 +350,10 @@ img{
 .mapBox iframe{
     margin-top: 3%;
     width: 100%;
-    height: 400px;
+    height: 100px;
 }
 .imageLocal{
     width: 50%;
     height: 40%;
-    
     
 }
