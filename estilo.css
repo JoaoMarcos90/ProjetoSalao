@@ -155,7 +155,7 @@ header{
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #009087;
+    background-color: #0da64a;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -164,7 +164,7 @@ header{
   
   .button2:hover {
     color: #ffffff;
-    border: 1px solid #009087;
+    border: 1px solid #009018;
   }
   
   .button2:hover:before {
