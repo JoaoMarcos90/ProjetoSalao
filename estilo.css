@@ -1,359 +1,45 @@
 *{
-    margin: 0%;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-
-}
-.background{
-    background: rgba(3,0,12,0.7) url(../ProjetoSalao/imagem/cabelo.jpeg);
-    background-blend-mode: darken;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    max-width: 100%;
-    overflow: hidden;
-   
-}
-
-nav{
-    display: flex;
-    font-size: 38px;
-}
-nav a{
-    color: white;
-    font-weight: 500;
-}
-nav a:hover{
-    color: rgb(242, 127, 255);
-}
-header{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    align-items: center;
-    text-align: center;
-    gap: 46rem;
-}
-
-.meio h1{
-    
-    color: white;
-    font-size: 100px;
-}
-.container{
-    text-align: center;
-    margin-top: 2%;
-    max-width: 100%;
-}
-.logo i{
-    height: 50px;
-    width: 50px;
-    background: transparent;
-    border: 2px solid pink;
-    color: plum;
-    border-radius: 50%;
-    display:inline-flex ;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    position: absolute;
-    left: 100px;
-    
-}
-/* ------- PAGINA 2 ------*/
-
-
-
-.sobre{ 
-    display: flex;
-    padding: 0px 0px 0px 0px;
-    background:rgb(186, 31, 188) ;
-    vertical-align: top;
-    z-index: 99;
-    
-}
-
-.imagemm{ 
-    max-width: 100%;
-    width: 40%;
-    
-}
-
-.textao h4 {
-    max-width: 100%;
-    margin-top: 5%;
-    margin-left: 60%; 
-    font-size: 200%;
-    color: white;
-    text-shadow: 1px 1px 1px #fb0fff, 0 0 2px rgb(225, 0, 255);
-    
-}
-.agenda{
-    position: absolute;
-    font-size: 200%;
-    left:56%;
-    top:175%;
-    color: white;
-}
-
-/* ------BOTAO---------*/
-.button2 {
-    display: inline-block;
-    transition: all 0.1s ease-in;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    color: #090909;
-    padding: 1.1em 3.8em 0.9em 1.9em;
-    font-size: 30px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    box-shadow: 3px 3px 8px #998b98,
-               -3px -3px 8px #887c86;
-    top: 10%;
-    left: 60%;
-    cursor: pointer;
-  }
-  
-  .button2 > svg {
-    height: 50px;
-    position: absolute;
-    padding: 0px 5px;
-    margin-top: -15px;
-  }
-  
-  .button2:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5,
-               inset -4px -4px 12px #ffffff;
-  }
-  
-  .button2:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.25);
-    top: 100%;
-    width: 140%;
-    height: 180%;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 50%;
-    display: block;
-    transition: all 0.2s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
-  }
-  
-  .button2:after {
-    content: "";
-    position: absolute;
-    left: 55%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.45);
-    top: 180%;
-    width: 160%;
-    height: 190%;
-    background-color: #0da64a;
-    border-radius: 50%;
-    display: block;
-    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
-  }
-  
-  .button2:hover {
-    color: #ffffff;
-    border: 1px solid #009018;
-  }
-  
-  .button2:hover:before {
-    top: -35%;
-    background-color: #009087;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-  }
-  
-  .button2:hover:after {
-    top: -45%;
-    background-color: #009087;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-  }
-  
-
-/* ------- PAGINA 3 ------*/
-
-.servicos{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-.services h2{
-    font-size: 60px;
-    margin-top: 30%;   
-}
-.cortes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-
-}
-.cortes img{
-    width: 100%;
-    max-width: 100%;
-    transition: transform 0.2s;
-}
-.corte img:hover{
-    transform: scale(1.1);
-    z-index: 1;
-}
-
-
-
-
-/* ------- PAGINA 4------*/
-
-
-.minigaleria{
-    width: 70%;
-    display: block;
-    align-items: center;
-    margin-left:12%;
-    columns: 3;
-    background-color:rgb(255, 255, 255);
-    margin-top: 8%;
-    z-index: 99;
-   
-    
-}
-
-.minigaleria .box img{
-    max-width:  100%;
-    border-radius: 15px;
-    
-}
-img{
-    width: 100%;
-    max-width: 100%;
-    transition: transform 0.2s;
-    
-}
-.minigaleria img:hover{
-    transform: scale(1.1);
-    z-index: 1;
-}
-  h6{
-    position: relative;
-    text-align: center;
-    margin-top: 14%;
-    font-size: 400%;
-  }
-  h3{
-    position: relative;
-    text-align: center;
-   
-    font-size: 100%;
-  }
-
-
-/* -------EFEITO IMG PAG3 ----------- */
-
-.container2 {
-    position: relative;
-    width: 50%;
-    border: 1px solid black;
-  }
-  
-  .image {
-    display: block;
-    width: 100vh;
-    height: 60vh;
-    overflow: hidden;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .2s ease;
-    background-color: #0a090a;
-  }
-  
-  .container2:hover .overlay {
-    opacity: 0.6;
-  }
-  
-  .text {
-    color: white;
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-
-  }
-/* -------pag 5 ----------- */
-
-.rede i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display:inline-flex ;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 25px;
-    cursor: pointer;
-    position: absolute;
-    left: 95%;
+  margin: 0;
  
 }
-.rede2 i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display:inline-flex ;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    cursor: pointer;
-    position: absolute;
-    left: 90%;
-}
 
-.rede i:hover{
-    background-color: rgb(207, 8, 190);
+.pag1{
+  width: 100%;
+  height: 100vh;
+  background-blend-mode: darken;
+  background: rgba(3, 0, 12, 0.7) url(../ProjetoSalao/imagem/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
  
 }
-.rede2 i:hover{
-    background-color: rgb(20, 10, 212);
 
+.titulo{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 500%;
+  left: 50%;
+  top: 20vh;
 }
 
-
-
-.mapBox iframe{
-    margin-top: 3%;
-    width: 100%;
-    height: 100px;
+.pag2{
+  width: 100%;
+  height: 100vh;
+  background: fixed;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
-.imageLocal{
-    width: 50%;
-    height: 40%;
-    
+.pag3{
+  width: 100%;
+  height: 100vh;
+  background: fixed;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
+
