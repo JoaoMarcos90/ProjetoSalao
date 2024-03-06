@@ -1,38 +1,135 @@
 *{
   margin: 0;
- 
+  
 }
 
 .pag1{
+  display: inline-block;
   width: 100%;
   height: 100vh;
   background-blend-mode: darken;
   background: rgba(3, 0, 12, 0.7) url(../ProjetoSalao/imagem/fundo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- 
+  overflow: hidden;
+}
+
+header{
+  display: inline-block;
+  height: 10vh;
+  color: white ;
+  
+}
+.logo{
+  background-color: white;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  width: 5%;
+  top: 2vh;
+  left: 2%;
+  border: solid 3px rgb(0, 0, 0);
+  border-radius: 100%;
+  
+
+}
+.galeria{
+  display: inline-block;
+  position: relative;
+  font-size: 120%;
+  left: 6%;
+  top: 0vh;
+}
+.contato{
+  display: inline-block;
+  position: relative;
+  font-size: 120%;
+  left: 10%;
+  top: 0vh;
+}
+.linha{ 
+  width: 500%;
+  height: 2vh;
+  border-bottom: 1.1px solid #ffffff;
 }
 
 .titulo{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: inline-block;
   position: relative;
   text-align: center;
   color: white;
   font-size: 500%;
   left: 50%;
-  top: 20vh;
+  top: 0vh;
 }
 
+/*----------- BOTAO AGENDA -------------*/
+button {
+  --color: #040404;
+  font-family: inherit;
+  background-color:transparent;
+  display: inline-block;
+  width: 20em;
+  left: 45em;
+  top: 20em;
+  height: 3em;
+  line-height: 0em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0px;
+  font-size:20px;
+  z-index: 1;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  position: relative;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 500px;
+  height: 100px;
+  z-index: -1;
+  border-radius: 20%;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+ 
+  transition: 0.1s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+  
+}
+/* --------------- PAGINA 2 --------------*/
 .pag2{
   width: 100%;
   height: 100vh;
   background: fixed;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
  
 }
+.imagens1{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 60vh;
+}
+
+/* --------------- PAGINA 3 --------------*/
 .pag3{
   width: 100%;
   height: 100vh;
@@ -42,4 +139,7 @@
   background-size: cover;
  
 }
+
+
+
 
