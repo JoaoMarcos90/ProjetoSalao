@@ -5,15 +5,26 @@
 
 .pag1{
   display: inline-block;
-  width: 100%;
-  height: 100vh;
+  margin: 2% 0% 0% 5%;
+  width: 60%;
+  height: 90vh;
   background-blend-mode: darken;
-  background: rgba(3, 0, 12, 0.7) url(../ProjetoSalao/imagem/fundo2.jpg);
+  background: rgba(3, 0, 12, 0.8) url(../ProjetoSalao/imagem/fundo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+ 
 }
-
+.bordapreta{
+  display: inline-block;
+  position: absolute;
+  background-color: #040404;
+  margin: 2% 0% 0% 20%;
+  width: 60%;
+  height: 90vh;
+  overflow: hidden;
+ 
+}
 header{
   display: inline-block;
   height: 10vh;
@@ -27,7 +38,7 @@ header{
   position: relative;
   width: 5%;
   top: 2vh;
-  left: 2%;
+  left: 3%;
   border: solid 3px rgb(0, 0, 0);
   border-radius: 100%;
   
@@ -35,44 +46,51 @@ header{
 }
 .galeria{
   display: inline-block;
+  color: #040404;
   position: relative;
   font-size: 120%;
-  left: 6%;
+  left: 100%;
   top: 0vh;
 }
 .contato{
   display: inline-block;
+  color: #040404;
   position: relative;
   font-size: 120%;
-  left: 10%;
+  left: 110%;
   top: 0vh;
 }
-.linha{ 
-  width: 500%;
-  height: 2vh;
-  border-bottom: 1.1px solid #ffffff;
-}
+
 
 .titulo{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Times New Roman', Times, serif;
   display: inline-block;
   position: relative;
   text-align: center;
-  color: white;
-  font-size: 500%;
-  left: 50%;
-  top: 0vh;
+  color: rgb(236, 0, 130);
+  font-size: 700%;
+  left: -40%;
+  top: -60vh;
 }
-
+.titulo2{
+  font-family:'Times New Roman', Times, serif;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: rgb(236, 0, 130);
+  font-size: 400%;
+  left: 40%;
+  top: -60vh;
+}
 /*----------- BOTAO AGENDA -------------*/
-button {
+button{
   --color: #040404;
   font-family: inherit;
   background-color:transparent;
   display: inline-block;
-  width: 20em;
-  left: 45em;
-  top: 20em;
+  width: 15em;
+  left: 27em;
+  top: -13em;
   height: 3em;
   line-height: 0em;
   overflow: hidden;
@@ -80,8 +98,8 @@ button {
   margin: 0px;
   font-size:20px;
   z-index: 1;
-  color: white;
-  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  border: 2px solid  rgb(0, 0, 0);
   border-radius: 6px;
   position: relative;
 }
@@ -89,7 +107,7 @@ button {
 button::before {
   position: absolute;
   content: "";
-  background: white;
+  background:  rgb(0, 0, 0);
   width: 500px;
   height: 100px;
   z-index: -1;
@@ -97,7 +115,7 @@ button::before {
 }
 
 button:hover {
-  color: rgb(0, 0, 0);
+  color:white;
 }
 
 button:before {
@@ -117,7 +135,7 @@ button:hover::before {
   width: 100%;
   height: 100vh;
   background: fixed;
-  background-color: rgb(158, 144, 144);
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -125,16 +143,93 @@ button:hover::before {
 .imagens1{
   display: inline-block;
   position: relative;
-  width: 30%;
-  height: 60vh;
+  width: 38%;
+  left: 52%;
+  top: -86vh;
+  height: 80vh;
+}
+.borda{
+  display: inline-block;
+  position: relative;
+  width:38%;
+  left: 55%;
+  top: 0vh;
+  height: 80vh;
+  background-color: #ce0a83;
+}
+h4{
+  display: inline-block;
+  position: relative;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 8vh;
+  right: 30%;
+  top: -30vh;
+}
+/*----------- BOTAO GALERIA -------------*/
+.buttonn{
+  --color: #040404;
+  font-family: inherit;
+  text-align: center;
+  background-color:transparent;
+  display: inline-block;
+  width: 15em;
+  left: 10em;
+  top: -33em;
+  height: 3em;
+  line-height:2.9em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0px;
+  font-size:20px;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  border: 2px solid  rgb(0, 0, 0);
+  border-radius: 6px;
+  position: relative;
 }
 
+.buttonn::before {
+  position: absolute;
+  content: "";
+  background:  rgb(0, 0, 0);
+  width: 500px;
+  height: 100px;
+  z-index: -1;
+  border-radius: 20%;
+}
+
+.buttonn:hover {
+  color:white;
+}
+
+.buttonn:before {
+  top: 100%;
+  left: 100%;
+ 
+  transition: 0.1s all;
+}
+
+.buttonn:hover::before {
+  top: -30px;
+  left: -30px;
+  
+}
 /* --------------- PAGINA 3 --------------*/
 .pag3{
   width: 100%;
   height: 100vh;
   background: fixed;
   background-color: rgb(12, 62, 105);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+/* --------------- PAGINA 4 --------------*/
+.pag4{
+  width: 100%;
+  height: 100vh;
+  background: fixed;
+  background-color: rgb(4, 74, 11);
   background-repeat: no-repeat;
   background-size: cover;
  
