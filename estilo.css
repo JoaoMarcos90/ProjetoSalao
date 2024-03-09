@@ -134,7 +134,7 @@ button:hover::before {
 }
 /* --------------- PAGINA 2 --------------*/
 .pag2{
-  margin-top: 15vh;
+  margin-top: 5vh;
   width: 100%;
   height: 100vh;
   background: fixed;
@@ -179,7 +179,7 @@ h4{
   display: inline-block;
   width: 15em;
   left: 10em;
-  top: -35em;
+  top: -38em;
   height: 3em;
   line-height:2.9em;
   overflow: hidden;
@@ -221,10 +221,10 @@ h4{
 }
 /* --------------- PAGINA 3 --------------*/
 .pag3{
-  margin-top: 15vh;
+  margin-top: 5vh;
   width: 100%;
   height: 100vh;
-  background-color: rgb(196, 10, 134);
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -236,30 +236,47 @@ h4{
   position: relative;
   font-size: 8vh;
   top: 3vh;
-  left: 38%;
-  color: white;
+  left: 40%;
+  color: rgb(0, 0, 0);
+}
+
+.linha1{
+  position: absolute;
+  left: 63vh;
+  top: -15vh;
+  height: 73vh;
+  border-right: 10px solid  #ce0a83;
+ 
+}
+.linha2{
+  position: absolute;
+  left: 128vh;
+  top: -15vh;
+  height: 73vh;
+  border-right: 10px solid  #ce0a83;
+ 
 }
 
 .minigaleria {
-  width: 100%;
+  width: 90%;
+  height: 100vh;
   position: relative;
   display: inline-block;
-  left:0%;
+  left:5%;
   top: 9vh;
-  height: 100vh;
-  columns: 4;
+  columns: 3;
   overflow: hidden;
 
 }
 
 .minigaleria .box {
-  width: 120%;
+  width: 100%;
   margin-bottom: 2%;
   overflow: hidden;
 }
 
 .minigaleria .box img {
-  width: 84%;
+  width: 100%;
   height: 58vh;
   border-radius: 4px;
   transition: transform 0.6s;
@@ -273,14 +290,14 @@ h4{
 /*----------- BOTAO GALERIA 2-------------*/
 
 .buttonnn{
-  --color: #ffffff;
+  --color: #000000;
   font-family: inherit;
   text-align: center;
   background-color:transparent;
   display: inline-block;
   width: 12em;
-  left: -27em;
-  top: 2.1em;
+  left: -18em;
+  top:1em;
   height: 2.8em;
   line-height:2.5em;
   overflow: hidden;
@@ -288,8 +305,8 @@ h4{
   margin: 0px;
   font-size:20px;
   z-index: 1;
-  color: rgb(255, 255, 255);
-  border: 3px solid  rgb(255, 255, 255);
+  color: black;
+  border: 3px solid black;
   border-radius: 6px;
   position: relative;
 }
@@ -297,7 +314,7 @@ h4{
 .buttonnn::before {
   position: absolute;
   content: "";
-  background:  rgb(255, 255, 255);
+  background:  black;
   width: 500px;
   height: 100px;
   z-index: -1;
@@ -305,7 +322,7 @@ h4{
 }
 
 .buttonnn:hover {
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 
 .buttonnn:before {
@@ -322,7 +339,7 @@ h4{
 }
 /* --------------- PAGINA 4 --------------*/
 .pag4{
-  margin-top: 10vh;
+  margin-top: 0vh;
   display: inline-block;
   position: relative;
   width: 100%;
@@ -345,7 +362,7 @@ h4{
   width: 0%;
   top: -10vh;
   height: 30vh;
-  left: 47%;
+  left: 48%;
   font-size: 400%;
   color: rgba(0, 0, 0, 0.907);
 
@@ -374,7 +391,7 @@ h5{
   border-radius: 50%;
   font-size: 150%;
   cursor: pointer;
-  left: 70%;
+  left: 75%;
   top: -10vh;
 }
 
