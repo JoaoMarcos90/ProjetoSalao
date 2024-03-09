@@ -51,18 +51,24 @@ header{
   color: #040404;
   position: relative;
   font-size: 120%;
-  left: 100%;
+  left: 94%;
   top: 0vh;
+  cursor: pointer;
+}
+.galeria:hover{
+  color: #ce0a83;
 }
 .contato{
   display: inline-block;
   color: #040404;
   position: relative;
   font-size: 120%;
-  left: 110%;
+  left: 103%;
   top: 0vh;
 }
-
+.contato:hover{
+  color: #ce0a83;
+}
 
 .titulo{
   font-family:'Times New Roman', Times, serif;
