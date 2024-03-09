@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .heading{
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+.galeria-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galeria-container .video{
+    height: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    overflow: hidden;
+}
+.galeria-container .video img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.galeria-container .video img:hover{
+    transition: .2s linear;
+    transform: scale(1.3);
+}
+.galeria-container .video .active{
+    position: fixed;
+    top: 50%; left: 50%;
+   transform: translate(-50%,-50%);
+   height: auto;
+   width: 50%; 
+   z-index: 1;
+}
+.galeria-container .video .active:hover{
+    transition: none;
+    transform: translate(-50%,-50%) scale(1.0);
+}
