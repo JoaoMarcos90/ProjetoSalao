@@ -1,0 +1,126 @@
+
+* {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(254, 254, 254);
+}
+
+.logo {
+    position: relative;
+    right: -500%;
+    width: 50%;
+    top: -10vh;
+    height: 11vh;
+    border-radius: 60%;
+}
+
+.cabecalho, .h8 {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 180%;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: -50%;
+    top: 0vh;
+    font-size: 120%;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgb(255, 0, 217);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: rgb(255, 255, 255);
+
+}
+.image1{
+    display: inline-block;
+    position: relative;
+    top: 2vh;
+    width: 50%;
+    height: 80vh;
+   
+}
+.fundao{
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 2vh;
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(162, 30, 143);
+   
+}
+.titulo{
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+    top: 10vh;
+    left: 30vh;
+    background-color: transparent;
+}
+
+.image2{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    top: 1vh;
+}
+.fundao2{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(162, 30, 143);
+    float: left;
+    top: 1vh;
+}
+.titulo2{
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+    top: 10vh;
+    left: 30vh;
+    background-color: transparent;
+}
+.image3{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    top: 0vh;
+}
+.fundao3{
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(162, 30, 143);
+    top: 0vh;
+}
+.titulo3{
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+    top: 10vh;
+    left: 30vh;
+    background-color: transparent;
+}
