@@ -140,6 +140,18 @@ button:hover::before {
   left: -30px;
   
 }
+#subir{
+	position:relative;
+  text-decoration: none;
+  color: #040404;
+  font-size: 6vh;
+  width: 0vh;
+	top: 28vh;
+	left:81%;
+}
+#subir:hover{
+  color: aliceblue;
+}
 /* --------------- PAGINA 2 --------------*/
 .pag2{
   margin-top: 5vh;
