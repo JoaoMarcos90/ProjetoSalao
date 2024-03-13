@@ -14,8 +14,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
- 
- 
 }
 .bordapreta{
   display: inline-block;
@@ -40,18 +38,19 @@ header{
   position: relative;
   width: 5%;
   top: 2vh;
-  left: 3%;
+  left: 8%;
   border: solid 3px rgb(0, 0, 0);
   border-radius: 100%;
   
-
 }
 .galeria{
+  text-decoration: none;
   display: inline-block;
   color: #040404;
   position: relative;
   font-size: 120%;
-  left: 94%;
+  left: 75%;
+  margin: 2vh;
   top: 0vh;
   cursor: pointer;
 }
@@ -63,7 +62,7 @@ header{
   color: #040404;
   position: relative;
   font-size: 120%;
-  left: 103%;
+  left: 120%;
   top: 0vh;
 }
 .contato:hover{
@@ -89,6 +88,9 @@ header{
   font-size: 500%;
   left: 29.5%;
   top: -65vh;
+}
+h2{
+  font-size: 5vh;
 }
 /*----------- BOTAO AGENDA -------------*/
 button{
@@ -152,9 +154,9 @@ button:hover::before {
 .imagens1{
   display: inline-block;
   position: relative;
-  width: 38%;
-  left: 54%;
-  top: -85vh;
+  width: 30%;
+  left: 0%;
+  top: 10vh;
   height: 80vh;
   
 }
@@ -162,9 +164,9 @@ button:hover::before {
 .borda{
   display: inline-block;
   position: relative;
-  width:38%;
-  left: 55%;
-  top: 0vh;
+  width:28%;
+  left: 60%;
+  top: 13vh;
   height: 80vh;
   background-color: #ce0a83;
 }
@@ -172,8 +174,8 @@ h4{
   display: inline-block;
   position: relative;
   font-family:'Times New Roman', Times, serif;
-  font-size: 10vh;
-  right: 30%;
+  font-size: 7vh;
+  right: 15%;
   top: -40vh;
 }
 /*----------- BOTAO GALERIA -------------*/
@@ -185,7 +187,7 @@ h4{
   display: inline-block;
   width: 15em;
   left: 10em;
-  top: -38em;
+  top: -10em;
   height: 3em;
   line-height:2.9em;
   overflow: hidden;

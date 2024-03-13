@@ -9,7 +9,7 @@
 
 .logo {
     position: relative;
-    right: -500%;
+    right: -400%;
     width: 50%;
     top: -10vh;
     height: 11vh;
@@ -47,6 +47,7 @@ header {
     text-align: center;
     gap: 1rem;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
 
 }
 .image1{
@@ -72,8 +73,10 @@ header {
     position: relative;
     font-size: 300%;
     top: 10vh;
-    left: 30vh;
+    left: 10vh;
+    color: aliceblue;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .image2{
@@ -91,13 +94,15 @@ header {
     background-color: rgb(162, 30, 143);
     float: left;
     top: 1vh;
+    overflow: hidden;
 }
 .titulo2{
     display: inline-block;
     position: relative;
     font-size: 300%;
     top: 10vh;
-    left: 30vh;
+    left: 10vh;
+    color: aliceblue;
     background-color: transparent;
 }
 .image3{
@@ -115,12 +120,14 @@ header {
     height: 80vh;
     background-color: rgb(162, 30, 143);
     top: 0vh;
+    overflow: hidden;
 }
 .titulo3{
     display: inline-block;
     position: relative;
     font-size: 300%;
     top: 10vh;
-    left: 30vh;
+    left: 10vh;
+    color: aliceblue;
     background-color: transparent;
 }
