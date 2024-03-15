@@ -154,7 +154,7 @@ button:hover::before {
 }
 /* --------------- PAGINA 2 --------------*/
 .pag2{
-  margin-top: 5vh;
+  margin-top: 0vh;
   width: 100%;
   height: 100vh;
   background: fixed;
@@ -239,9 +239,9 @@ h4{
   left: -30px;
   
 }
-/* --------------- PAGINA 3 --------------*/
+/* --------------- PAGINA 3 -------------------------------------------  */
 .pag3{
-  margin-top: 5vh;
+  margin-top: 10vh;
   width: 100%;
   height: 100vh;
   background-color: white;
@@ -399,20 +399,20 @@ h5{
 /* -------BOTAO REDESOCIAL-----*/
 .rede i {
   display: inline-flex;
-  position: relative;
+  position: fixed;
   align-items: center;
   justify-content: space-around;
-  height: 7vh;
-  width: 3%;
+  height: 5vh;
+  width: 2.3%;
   background: transparent;
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   background-color:rgb(255, 255, 255) ;
   color: rgb(0, 0, 0);
   border-radius: 50%;
-  font-size: 150%;
+  font-size: 100%;
   cursor: pointer;
-  left: 75%;
-  top: -10vh;
+  right: 1%;
+  top: 20vh;
 }
 
 .rede i:hover {
@@ -423,7 +423,7 @@ h5{
 .telefone{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   position: relative;
-  left: -8.8% ;
+  right: 50% ;
   color:rgb(255, 255, 255);
   font-size: 120%;
   top: -4vh;
@@ -435,16 +435,16 @@ h5{
   position: relative;
   color:rgb(255, 255, 255);
   font-size: 120%;
-  left: 14% ;
+  right: 28% ;
   top: -15vh;
 }
 .email{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   position: relative;
-  left: -30% ;
+  right:70% ;
   color:rgb(255, 255, 255);
   font-size: 120%;
-  top: -28vh;
+  top: 8vh;
 }
 
 

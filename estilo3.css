@@ -1,10 +1,17 @@
 
 * {
     margin: 0%;
-    padding: 0;
     list-style: none;
     text-decoration: none;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);   
+   
+}
+
+.pag5{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height:100vh ;
 }
 
 .logo {
@@ -54,15 +61,19 @@ header {
     display: inline-block;
     position: relative;
     top: 2vh;
-    width: 50%;
+    width: 60%;
     height: 80vh;
-   
+    left: -10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url("../ProjetoSalao/imagem/manicure2.png");
 }
 .fundao{
-    display: inline-block;
+    display: flex;
     position: relative;
-    float: right;
-    top: 2vh;
+    left: 50%;
+    top: -78.7vh;
     width: 50%;
     height: 80vh;
     background-color: rgb(162, 30, 143);
@@ -82,18 +93,23 @@ header {
 .image2{
     display: inline-block;
     position: relative;
+    top: -79vh;
     width: 50%;
     height: 80vh;
-    top: 1vh;
+    left: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url("../ProjetoSalao/imagem/manicure.png");
 }
 .fundao2{
-    display: inline-block;
+    display: flex;
     position: relative;
     width: 50%;
     height: 80vh;
+    left: 0%;
     background-color: rgb(162, 30, 143);
-    float: left;
-    top: 1vh;
+    top: -159.5vh;
     overflow: hidden;
 }
 .titulo2{
@@ -108,18 +124,23 @@ header {
 .image3{
     display: inline-block;
     position: relative;
-    width: 50%;
+    top: -160vh;
+    width: 60%;
     height: 80vh;
-    top: 0vh;
+    left: -10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url("../ProjetoSalao/imagem/salao3.jfif");
 }
 .fundao3{
-    display: inline-block;
+    display: flex;
     position: relative;
     float: right;
     width: 50%;
     height: 80vh;
     background-color: rgb(162, 30, 143);
-    top: 0vh;
+    top: -240.7vh;
     overflow: hidden;
 }
 .titulo3{
