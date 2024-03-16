@@ -1,19 +1,15 @@
 
 * {
     margin: 0%;
+    padding: 0;
     list-style: none;
     text-decoration: none;
     background-color: rgb(255, 255, 255);   
-   
 }
-
 .pag5{
-  display: block;
-  position: absolute;
-  width: 100%;
-  height:100vh ;
+    max-height: 180vh;
+    overflow: hidden;
 }
-
 .logo {
     position: relative;
     right: -400%;
@@ -57,12 +53,91 @@ header {
     overflow: hidden;
 
 }
-.image1{
+.tela1{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    left: 50%;
+    top: 0vh;
+    background-color:rgb(147, 5, 135);
+}
+.teste1{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    top: -100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../ProjetoSalao/imagem/salao1.jfif");
+    -webkit-background-size: cover;
+}
+
+.tela2{
+    margin: 0;
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    left: 0%;
+    top: -100vh;
+    background-color:rgb(147, 5, 135);
+}
+.teste2{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    left: 50%;
+    top: -180vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../ProjetoSalao/imagem/salao2.jfif");
+    -webkit-background-size: cover;
+}
+
+.tela3{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    left: 50%;
+    top: -200vh;
+    background-color: rgb(147, 5, 135);
+}
+.teste3{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    top: -280vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../ProjetoSalao/imagem/salao3.jfif");
+    -webkit-background-size: cover;
+}
+.bordafinal{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(252, 252, 252);
+}
+.bordaimg{
+    position: relative;
+    display: block;
+    background-color: transparent;
+    left: 47%;
+    top: 3vh;
+}
+/*.image1{
     display: inline-block;
     position: relative;
     top: 2vh;
-    width: 60%;
-    height: 80vh;
+    width: 100%;
+    height: 100vh;
     left: -10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -79,76 +154,4 @@ header {
     background-color: rgb(162, 30, 143);
    
 }
-.titulo{
-    display: inline-block;
-    position: relative;
-    font-size: 300%;
-    top: 10vh;
-    left: 10vh;
-    color: aliceblue;
-    background-color: transparent;
-    overflow: hidden;
-}
-
-.image2{
-    display: inline-block;
-    position: relative;
-    top: -79vh;
-    width: 50%;
-    height: 80vh;
-    left: 50%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-   background-image: url("../ProjetoSalao/imagem/manicure.png");
-}
-.fundao2{
-    display: flex;
-    position: relative;
-    width: 50%;
-    height: 80vh;
-    left: 0%;
-    background-color: rgb(162, 30, 143);
-    top: -159.5vh;
-    overflow: hidden;
-}
-.titulo2{
-    display: inline-block;
-    position: relative;
-    font-size: 300%;
-    top: 10vh;
-    left: 10vh;
-    color: aliceblue;
-    background-color: transparent;
-}
-.image3{
-    display: inline-block;
-    position: relative;
-    top: -160vh;
-    width: 60%;
-    height: 80vh;
-    left: -10%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-   background-image: url("../ProjetoSalao/imagem/salao3.jfif");
-}
-.fundao3{
-    display: flex;
-    position: relative;
-    float: right;
-    width: 50%;
-    height: 80vh;
-    background-color: rgb(162, 30, 143);
-    top: -240.7vh;
-    overflow: hidden;
-}
-.titulo3{
-    display: inline-block;
-    position: relative;
-    font-size: 300%;
-    top: 10vh;
-    left: 10vh;
-    color: aliceblue;
-    background-color: transparent;
-}
+*/
