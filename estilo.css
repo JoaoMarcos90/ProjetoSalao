@@ -456,3 +456,8 @@ h5{
   margin-left: 0%;
 }
 
+@media screen and (max-width: 1080px) {
+  .pag1 {
+    display: none;
+  }
+}
